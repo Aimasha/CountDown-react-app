@@ -1,38 +1,67 @@
-.App {
+body {
+  margin: 0;
+  background-color: rgb(234, 217, 235);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+main {
+  
+  padding: 20px;
+  width: 70%;
+  height: 250px;
+  margin: 40px auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#btnStart {
+  background-color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+#btnReset {
+  background-color:red
+}
+
+button {
+  margin: 10px;
+  width: 130px;
+  height: 70px;
+  padding: 20px;
+  font-family: inherit;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 10%;
+  background-color:red;
   color: white;
+  border: rgb(205, 205, 205) 3px ridge;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+ 
+  color: rgb(255, 226, 231);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:active {
+  color: red;
+  background-color: rgb(255, 226, 231);
+}
+
+#btnStart:hover {
+ 
+  color: rgb(226, 255, 227);
+}
+
+#btnReset:hover {
+  color: rgb(226, 242, 255);
 }
